@@ -18,15 +18,15 @@ async function createRoom() {
     },
   };
   let response = await fetch(newRoomEndpoint, {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify(options),
-      mode: 'cors',
+      mode: "cors",
     }),
     room = await response.json();
   // return room;
 
   // Comment out the above and uncomment the below, using your own URL
-  return { url: 'https://aferris.daily.co/testroom' };
+  return { url: "https://aferris.daily.co/blackwater" };
 }
 
 export default { createRoom };
