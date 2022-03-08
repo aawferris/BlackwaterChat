@@ -7,7 +7,7 @@
   CI = "false"
 
 [template.environment]
-  DAILY_API_KEY = "Replace with Daily API key"
+  DAILY_API_KEY = "c0e171ee-84db-445b-b398-0cca140ebd6a"
   
 
 [[redirects]]
