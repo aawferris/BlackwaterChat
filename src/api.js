@@ -26,7 +26,7 @@ async function createRoom() {
   // return room;
 
   // Comment out the above and uncomment the below, using your own URL
-  return { url: "https://aferris.daily.co/blackwater" };
+  return { url: "https://blackwaterchat.netlify.app" };
 }
 
 export default { createRoom };

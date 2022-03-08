@@ -1,4 +1,13 @@
 {
+    "domain_name": "blackwaterchat.netlify.app",
+    "config": {
+      "hide_daily_branding": false,
+      "redirect_on_meeting_exit": "https://your-domain.co/vid-exit",
+      "hipaa": false,
+      "intercom_auto_record": false,
+      "lang": "en"
+    },
+
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
